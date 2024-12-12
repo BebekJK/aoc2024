@@ -1,0 +1,1 @@
+get_area(i, j, grid[i][j])
