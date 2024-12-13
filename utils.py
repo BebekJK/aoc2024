@@ -4,7 +4,7 @@ import os
 
 load_dotenv()
 session = os.getenv('SESSION')
-day = 12
+day = 13
 
 if __name__ == '__main__':
     data = requests.get(f'https://adventofcode.com/2024/day/{day}/input', cookies={'session': session}).text
