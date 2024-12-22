@@ -181,5 +181,5 @@ def solve_part_two():
         print(f"Answer for part two: {ans}")
 
 if __name__ == '__main__':
-    # solve_part_one()
+    solve_part_one()
     solve_part_two()
